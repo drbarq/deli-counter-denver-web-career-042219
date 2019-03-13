@@ -34,6 +34,10 @@ end
 
 def now_serving(katz_deli)
   puts "Currently serving #{katz_deli.first}."
+  katz_deli.shift
+  return katz_deli
+
+end
 
   katz_deli.each {|person| }
   puts "now"
