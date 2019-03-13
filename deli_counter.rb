@@ -25,7 +25,7 @@ def take_a_number(katz_deli, new_person)
   return "Welcome, #{new_person}. You are number #{new_katz_deli.length} in line."
 end
 =end
-## tried to use the above method with a new array creation but that wasnt the move 
+## tried to use the above method with a new array creation but that wasnt the move
 def take_a_number(katz_deli, new_person)
   katz_deli << new_person
   puts "Welcome, #{new_person}. You are number #{katz_deli.length} in line."
@@ -34,13 +34,8 @@ end
 
 def now_serving(katz_deli)
   puts "Currently serving #{katz_deli.first}."
-  
-  katz_deli.each {|person| } 
+
+  katz_deli.each {|person| }
   puts "now"
-  
-  if katz_deli.length == 0 
-    
 
-
-
-
+  if katz_deli.length == 0
