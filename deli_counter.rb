@@ -10,7 +10,6 @@ def line(katz_deli)
     current_line = Array.new
     katz_deli.each {|person| current_line << "#{katz_deli.index(person) + 1}. #{person}"}
     joined = current_line.join(" ")
-    puts joined
-  ##  puts "The line is currently: #{current_line}"
+    puts "The line is currently: #{joined}"
   end
 end
