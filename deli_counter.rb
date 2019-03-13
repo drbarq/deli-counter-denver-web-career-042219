@@ -19,6 +19,5 @@ def take_a_number(katz_deli, new_person)
   new_katz_deli = Array.new
   new_katz_deli << new_person
   puts new_katz_deli
-end 
+end
 ##  puts "Welcome, #{new_person}. You are number #{katz_deli.length + 1} in line."
-
