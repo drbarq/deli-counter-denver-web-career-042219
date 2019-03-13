@@ -9,6 +9,6 @@ def line(katz_deli)
   if katz_deli.length > 0
     current_line = Array.new
     katz_deli.each {|person| current_line << "#{katz_deli.index(name)}. name "}
-    puts katz_deli
+    puts "The line is currently: current_line"
   end
 end
