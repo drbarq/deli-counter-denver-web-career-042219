@@ -39,7 +39,3 @@ def now_serving(katz_deli)
 
 end
 
-  katz_deli.each {|person| }
-  puts "now"
-
-  if katz_deli.length == 0
