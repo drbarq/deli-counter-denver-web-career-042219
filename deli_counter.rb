@@ -20,6 +20,6 @@ def take_a_number(katz_deli, new_person)
   katz_deli.each {|person| new_katz_deli << person}
   new_katz_deli << new_person
   puts new_katz_deli.length
-  puts "Welcome, #{new_person}. You are number #{new_katz_deli.length + 1} in line."
+  puts "Welcome, #{new_person}. You are number #{new_katz_deli.length} in line."
   puts new_katz_deli.length
 end
