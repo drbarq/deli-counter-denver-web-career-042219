@@ -16,6 +16,8 @@ end
 
 
 def take_a_number(katz_deli, new_person)
-  line(katz_deli)
+  new_katz_deli = Array.new 
+  new_katz_deli << "#{katz_deli.index(person) + 1}. #{new_person}"
+
   ##puts "Welcome, #{new_person}. You are number #{katz_deli.length + 1} in line."
 end
