@@ -38,4 +38,3 @@ def now_serving(katz_deli)
   return katz_deli
 
 end
-
