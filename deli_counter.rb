@@ -17,6 +17,7 @@ end
 
 def take_a_number(katz_deli, new_person)
   new_katz_deli = Array.new
+  katz_deli.each {|person| new_katz_deli << person}
   new_katz_deli << katz_deli
   puts new_katz_deli.length
   new_katz_deli << new_person
