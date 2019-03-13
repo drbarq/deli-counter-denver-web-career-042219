@@ -17,7 +17,9 @@ end
 
 def take_a_number(katz_deli, new_person)
   new_katz_deli = Array.new
+
   katz_deli.each {|person| new_katz_deli << person}
   new_katz_deli << new_person
   puts "Welcome, #{new_person}. You are number #{new_katz_deli.length} in line."
+  return "Welcome, #{new_person}. You are number #{new_katz_deli.length} in line."
 end
