@@ -17,6 +17,7 @@ end
 
 def take_a_number(katz_deli, new_person)
   new_katz_deli = Array.new
+  new_katz_deli << katz_deli
   new_katz_deli << new_person
   puts new_katz_deli
 end
