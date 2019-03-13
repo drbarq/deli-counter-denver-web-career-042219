@@ -10,7 +10,7 @@ def line(katz_deli)
     current_line = String.new
     katz_deli.each {|person| current_line << (katz_deli.index(person) + 1)}
     ##puts current_line
-    puts current_line_string
+    puts current_line
     puts "The line is currently: #{current_line}"
   end
 end
